@@ -23,7 +23,6 @@
         }
     },
     "scripts": {
-        "postdeploy": ""
     },
     "formation": {
         "web": {
