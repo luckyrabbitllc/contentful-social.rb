@@ -23,7 +23,7 @@
         }
     },
     "scripts": {
-        "postdeploy": "contentful_social config.yml"
+        "postdeploy": ""
     },
     "formation": {
         "web": {
