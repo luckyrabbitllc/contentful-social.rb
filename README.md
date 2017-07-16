@@ -185,17 +185,11 @@ Keep in mind that if you modify the defaults, the URL should be changed to the v
 
 ## Running in Heroku
 
-* Create a `Procfile` containing:
+* After editing your config.yml file, click the button below to deploy to Heroku instantly.
 
-```
-web: PORT=$PORT env bundle exec contentful_social config.yml
-```
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/luckyrabbitllc/contentful-social.rb)
 
-That will allow Heroku to set it's own Port according to their policy.
-
-Then proceed to `git push heroku master`.
-
-The URL for the webhook then will be on port 80, so you should change it to: `http://YOUR_APPLICATION/social`.
+The URL for the webhook then will be on port 80, so you should change it to: `http://YOUR_APPLICATION.herokuapp.com/social`.
 
 ## Contributing
 
