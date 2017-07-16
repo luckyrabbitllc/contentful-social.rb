@@ -1,0 +1,1 @@
+web: PORT=$PORT env bundle exec contentful_social config.yml
