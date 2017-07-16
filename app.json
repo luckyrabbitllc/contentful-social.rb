@@ -1,6 +1,6 @@
 {
-    "name": "SitePress",
-    "description": "A beautiful & open-source content, marketing, and analytics platform for startups.",
+    "name": "Contentful Social",
+    "description": "Automatically publish to social media via Contentful.",
     "keywords": [
         "CMS",
         "Blog",
@@ -8,9 +8,8 @@
         "Laravel",
         "Contentful"
     ],
-    "website": "https://sitepress.herokuapp.com",
-    "repository": "https://github.com/luckyrabbitllc/SitePress",
-    "logo": "https://images.contentful.com/x5o3atz1wqhm/2PWSbcsefYImQyMuqcIuGi/5efaa2c98a4819ef729885a7c3aa381c/App_Icon_2x.png",
+    "website": "https://github.com/luckyrabbitllc/contentful-social.rb",
+    "repository": "https://github.com/luckyrabbitllc/contentful-social.rb",
     "success_url": "/",
     "env": {
         "RAILS_ENV": "production",
