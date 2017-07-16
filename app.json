@@ -23,7 +23,7 @@
         }
     },
     "scripts": {
-        "postdeploy": "bundle exec rake db:migrate"
+        "postdeploy": "contentful_social config.yml"
     },
     "formation": {
         "web": {
